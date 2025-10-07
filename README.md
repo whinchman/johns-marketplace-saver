@@ -11,7 +11,6 @@ A Firefox browser extension that automatically saves your Facebook Marketplace l
 - 📋 **Multiple drafts** - Keep up to 10 saved drafts
 - ⬆️ **Easy restore** - Restore any saved draft with one click
 - 🔔 **Visual notifications** - See when drafts are saved/restored
-- 🔧 **Zero maintenance** - Works even when Facebook changes their page structure
 - 🚀 **Lightweight** - No external dependencies, runs entirely in your browser
 
 ## Installation
@@ -25,17 +24,8 @@ A Firefox browser extension that automatically saves your Facebook Marketplace l
 5. Navigate to the extension folder and select `manifest.json`
 6. The extension is now loaded! (Note: temporary extensions are removed when Firefox closes)
 
-### Option 2: Permanent Installation (requires icons)
-
-Before permanent installation, you need to add icon files:
-
-1. Create an `icons` folder in the extension directory
-2. Add three PNG icon files:
-   - `icon16.png` (16x16 pixels)
-   - `icon48.png` (48x48 pixels)
-   - `icon128.png` (128x128 pixels)
-
-Then follow Firefox's instructions for [installing unsigned extensions](https://support.mozilla.org/en-US/kb/add-on-signing-in-firefox).
+### Option 2: Permanent Installation
+The Latest signed release XPI can be download https://www.217industries.com/extensions/johns-fb-marketplace-saver/jp-market-saver.xpi
 
 ## Usage
 
