@@ -1,0 +1,256 @@
+/* Facebook Marketplace Draft Saver - Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 400px;
+  min-height: 300px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #1c1e21;
+  background: #f0f2f5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #1877f2 0%, #0d65d9 100%);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+/* Warning */
+.warning {
+  background: #fff3cd;
+  color: #856404;
+  padding: 16px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 16px;
+  font-size: 13px;
+}
+
+/* Main Content */
+#mainContent {
+  padding: 16px;
+}
+
+/* Sections */
+.section {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #050505;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e4e6eb;
+}
+
+/* Draft Info */
+.draft-info {
+  margin-bottom: 12px;
+}
+
+.no-draft,
+.no-drafts {
+  color: #65676b;
+  font-size: 13px;
+  font-style: italic;
+  text-align: center;
+  padding: 12px;
+}
+
+.draft-fields {
+  margin-bottom: 8px;
+}
+
+.field-preview {
+  font-size: 13px;
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+
+.field-preview strong {
+  color: #050505;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 80px;
+}
+
+.timestamp {
+  font-size: 11px;
+  color: #65676b;
+  margin-top: 8px;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  flex: 1;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.btn-primary {
+  background: #1877f2;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #166fe5;
+}
+
+.btn-secondary {
+  background: #e4e6eb;
+  color: #050505;
+}
+
+.btn-secondary:hover {
+  background: #d8dadf;
+}
+
+.btn-small {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+.btn-restore {
+  background: #42b72a;
+  color: white;
+}
+
+.btn-restore:hover {
+  background: #36a420;
+}
+
+.btn-delete {
+  background: #f02849;
+  color: white;
+}
+
+.btn-delete:hover {
+  background: #d02041;
+}
+
+/* Saved Drafts */
+.saved-drafts {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.draft-item {
+  background: #f7f8fa;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 8px;
+  transition: background 0.2s;
+}
+
+.draft-item:hover {
+  background: #e4e6eb;
+}
+
+.draft-item:last-child {
+  margin-bottom: 0;
+}
+
+.draft-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 6px;
+}
+
+.draft-title {
+  font-weight: 600;
+  font-size: 13px;
+  color: #050505;
+  flex: 1;
+  margin-right: 8px;
+}
+
+.draft-price {
+  font-size: 13px;
+  color: #1877f2;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.draft-meta {
+  margin-bottom: 8px;
+}
+
+.draft-actions {
+  display: flex;
+  gap: 6px;
+}
+
+/* Status */
+.status {
+  text-align: center;
+  padding: 12px;
+  font-size: 12px;
+  color: #65676b;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Scrollbar */
+.saved-drafts::-webkit-scrollbar {
+  width: 8px;
+}
+
+.saved-drafts::-webkit-scrollbar-track {
+  background: #f0f2f5;
+  border-radius: 4px;
+}
+
+.saved-drafts::-webkit-scrollbar-thumb {
+  background: #ccd0d5;
+  border-radius: 4px;
+}
+
+.saved-drafts::-webkit-scrollbar-thumb:hover {
+  background: #b0b3b8;
+}

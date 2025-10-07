@@ -1,0 +1,33 @@
+You need to add 3 icon files to this directory:
+
+Required files:
+- icon16.png (16x16 pixels)
+- icon48.png (48x48 pixels)
+- icon128.png (128x128 pixels)
+
+Quick ways to get icons:
+
+1. Use icon128.svg (provided in this folder) and convert to PNG:
+   - Open icon128.svg in a browser
+   - Take a screenshot
+   - Resize to 128x128, 48x48, and 16x16
+   - Save as PNG files
+
+2. Online icon generators:
+   - https://www.favicon-generator.org/
+   - https://realfavicongenerator.net/
+   - Upload any image and download all sizes
+
+3. Use emoji as icon:
+   - Go to https://emojipedia.org/
+   - Find an emoji you like (💾 📝 💼 🛒)
+   - Right-click and save the image
+   - Resize to needed sizes
+
+4. Create your own:
+   - Use GIMP, Photoshop, or any image editor
+   - Create simple icon designs
+   - Export at 16x16, 48x48, and 128x128
+
+Note: For testing, you can use any PNG images at the right sizes.
+The extension will work without icons in temporary mode.

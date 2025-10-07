@@ -1,0 +1,19 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="#1877f2"/>
+
+  <!-- Document/paper icon -->
+  <rect x="36" y="28" width="56" height="72" rx="4" fill="white"/>
+
+  <!-- Lines representing text -->
+  <rect x="44" y="40" width="40" height="4" rx="2" fill="#1877f2"/>
+  <rect x="44" y="52" width="40" height="4" rx="2" fill="#1877f2"/>
+  <rect x="44" y="64" width="32" height="4" rx="2" fill="#1877f2"/>
+
+  <!-- Save/floppy disk icon overlay -->
+  <g transform="translate(70, 70)">
+    <rect x="0" y="0" width="24" height="24" rx="2" fill="#42b72a"/>
+    <rect x="2" y="2" width="20" height="6" fill="white"/>
+    <rect x="8" y="14" width="8" height="10" fill="white"/>
+  </g>
+</svg>

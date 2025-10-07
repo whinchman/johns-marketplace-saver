@@ -1,0 +1,43 @@
+{
+  "manifest_version": 2,
+  "name": "John's Facebook Marketplace Saver",
+  "version": "0.1.3",
+  "description": "Save and restore Facebook Marketplace listing drafts to prevent lost work",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "johns-fb-marketplace-saver@217industries.com",
+      "update_url": "https://www.217industries.com/extensions/johns-fb-marketplace-saver/updates.json"
+    }
+  },
+
+  "permissions": [
+    "storage",
+    "activeTab",
+    "*://*.facebook.com/*"
+  ],
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "John's Facebook Marketplace Saver"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/marketplace/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

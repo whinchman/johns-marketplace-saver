@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FB Marketplace Draft Saver</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📝 John's Draft Saver</h1>
+      <p class="subtitle">Facebook Marketplace</p>
+    </header>
+
+    <div id="notOnMarketplace" class="warning" style="display: none;">
+      ⚠️ Open Facebook Marketplace, ya dink.
+    </div>
+
+    <div id="mainContent" style="display: none;">
+      <!-- Current Draft Section -->
+      <section class="section">
+        <h2>Current Draft</h2>
+        <div id="currentDraftInfo" class="draft-info">
+          <p class="no-draft">No draft detected</p>
+        </div>
+        <div class="button-group">
+          <button id="saveNowBtn" class="btn btn-primary">💾 Save Now</button>
+          <button id="restoreCurrentBtn" class="btn btn-secondary" style="display: none;">⬆️ Restore</button>
+        </div>
+      </section>
+
+      <!-- Saved Drafts Section -->
+      <section class="section">
+        <h2>Saved Drafts</h2>
+        <div id="savedDrafts" class="saved-drafts">
+          <p class="no-drafts">No saved drafts yet</p>
+        </div>
+      </section>
+
+      <!-- Auto-save Status -->
+      <div class="status">
+        <span id="autoSaveStatus">✅ Auto-save enabled</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
